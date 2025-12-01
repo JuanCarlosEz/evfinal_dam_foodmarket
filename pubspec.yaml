@@ -1,0 +1,44 @@
+name: street_food_market
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Firebase Core (obligatorio)
+  firebase_core: ^2.27.0
+
+  # Firestore (para guardar usuarios y contraseñas)
+  cloud_firestore: ^4.15.8
+
+  # Google Maps (si lo usas)
+  google_maps_flutter: ^2.5.0
+  geolocator: ^12.0.0
+
+  # Geo (si usarán ubicación)
+  geoflutterfire2: ^2.0.0
+  location: ^5.0.0
+
+  # Íconos
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
